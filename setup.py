@@ -40,3 +40,5 @@ setup(
     ],
     cmdclass={"build_ext": BuildExtension},
     )
+
+yarn upgrade
