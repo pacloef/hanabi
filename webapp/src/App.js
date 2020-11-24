@@ -4,10 +4,6 @@
 //  This source code is licensed under the license found in the
 //  LICENSE file in the root directory of this source tree.
 
-yarn info
-yarn upgrade
-yarn add yarn
-
 import React from "react";
 import { BoardContext } from "./BoardState";
 import Overlay from "./components/Overlay";
