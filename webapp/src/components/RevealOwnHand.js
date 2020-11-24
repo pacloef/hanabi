@@ -4,6 +4,15 @@
 //  This source code is licensed under the license found in the
 //  LICENSE file in the root directory of this source tree.
 
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+sudo apt update
+sudo apt install yarn
+
+yarn --version
+
 import React from "react";
 import ShowHints from "./ShowHints";
 import { BoardContext } from "../BoardState";
