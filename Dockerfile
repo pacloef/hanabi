@@ -16,8 +16,6 @@ RUN apt-get update
 RUN apt-get install -y python3-pip
 RUN apt-get -y install python3-setuptools
 
-RUN yarn upgrade
-
 WORKDIR /
 RUN wget -q https://download.pytorch.org/libtorch/cu100/libtorch-shared-with-deps-latest.zip
 RUN unzip -q libtorch-shared-with-deps-latest.zip
